@@ -1,0 +1,12 @@
+/* TEAM */
+Founder: Chidimma
+Website: https://riseup.com
+
+/* THANKS */
+Diaspora Community: Made with ❤️ for the diaspora
+
+/* SITE */
+Last update: 2026-06-21
+Standards: HTML5, CSS3
+Components: shadcn/ui
+Technology: Next.js, React, TailwindCSS, Supabase, Vercel

@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riseup.com";
+
   return {
     rules: [
       {
@@ -8,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://riseup.com/sitemap.xml",
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }
